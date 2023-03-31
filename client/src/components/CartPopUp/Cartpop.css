@@ -1,0 +1,51 @@
+.reportpopup-2 {
+  top: 40%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  /* height: 40%; */
+  width: 30%;
+  position: fixed;
+  gap: 10px;
+  background-color: #7fe3ff;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.report-bg-2 {
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+  /* background-color: rgba(189, 189, 189, 0.9); */
+}
+
+.reportpopup-buttons-2 {
+  display: flex;
+  gap: 10px;
+  flex-direction: row !important;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid rgb(102, 100, 100, 0.3);
+  border-radius: 5px;
+}
+.card-items {
+  display: flex;
+}
+
+.reportpopup-scroll {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: scroll;
+}

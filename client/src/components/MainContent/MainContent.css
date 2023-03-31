@@ -1,0 +1,29 @@
+.total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+table {
+  margin: 20px 0;
+}
+.cart-cursor {
+  cursor: pointer;
+  border-radius: 50%;
+
+  /* background-color: aliceblue; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  padding: 10px 0;
+}
+
+.content-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

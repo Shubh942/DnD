@@ -1,0 +1,32 @@
+.reportpopup {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* height: 40%; */
+  width: 30%;
+  position: fixed;
+  gap: 100px;
+  background-color: aquamarine;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.report-bg {
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+  /* background-color: rgba(189, 189, 189, 0.9); */
+}
+
+.reportpopup-buttons {
+  display: flex;
+  gap: 10px;
+  flex-direction: row !important;
+}
